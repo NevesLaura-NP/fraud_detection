@@ -22,3 +22,10 @@ After the analysis we needed to drop all unecessary columns such as isFlaggedFra
 
 # Modeling 
 
+Once we imported our newly sampled data we start to model it through Random Forest Classifier. We chose this type of ensemble method as the quantity of rows can make this data quite noisy to be modeled. We thus wanted to avoid potential overfitting of the data while also keeping a good amount of accuracy.
+
+Once we utilize Random Forest Classifier we could regard a great score for test accuracy of 99.99%. However the model sufferend from classification imbalance. Due to non fraudulent transactions being the heavy majority of the data while fraudulent transactions were a minority the f1-score for each classification was different, with: 0.0 = 0.999949 and 1.0 = 0.857143. 
+
+Next, we investigated the hyperparameters. While searching for hyperparameter values that are generally known to work well, I ultimately decided to use Grid Search. Taking into account the magnitude of the data collection, employing Random Search initially may cause delays in the outcomes and evaluation of our modeling, in addition to increasing computational expenses.
+
+After discovering more effective parameters, the f1-score became 1.0 for each classification 100% accurately being able to predict if a transaction was fraudulent.
