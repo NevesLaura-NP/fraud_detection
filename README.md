@@ -7,4 +7,4 @@ Currently is not possible to import the data to github due to its datafile size 
 
 Through an investigation of the data frame we could observe interesting visualizations. Once we chose the data that was classified as fraudulent and looked into the distribution of types of transactions we could see that they are limited to only two types: Cash Out and Transfer
 
-![Alt text](img/type.png)
+(img/types.png)
