@@ -8,3 +8,7 @@ Currently is not possible to import the data to github due to its datafile size 
 Through an investigation of the data frame we could observe interesting visualizations. Once we chose the data that was classified as fraudulent and looked into the distribution of types of transactions we could see that they are limited to only two types: Cash Out and Transfer
 
 ![types](img/types.png)
+
+Second, we may look at the median payments made fraudulently, which are typically higher than the median sums for legitimate transactions. Since the amount of rows tends to obscure the presentation of these tendencies, log was necessary for this particular visualization.
+
+![amount](img/amount.png)
