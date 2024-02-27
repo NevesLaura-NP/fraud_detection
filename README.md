@@ -1,6 +1,6 @@
 # Fraud Detection
 
-This is a project based on historical transactions data from a bank. This will allow the creation of a minimal-viable-product that detects fraudulant payments.
+This is a project based on historical transactions data from a bank. This will allow the creation of a minimal-viable-product that detects fraudulant payments./n
 Currently is not possible to import the data to github due to its datafile size limit. However jupiter notebooks will still be able to demonstrate the outputs of the analysed data, allowing the peer review of the code.
 
 # EDA
